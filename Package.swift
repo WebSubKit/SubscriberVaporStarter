@@ -15,7 +15,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/WebSubKit/SubscriberVapor.git", revision: "1405912"),
+        .package(url: "https://github.com/WebSubKit/SubscriberVapor.git", from: "1.1.0"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.92.0"),
         .package(url: "https://github.com/vapor/fluent.git", from: "4.9.0"),
         .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.6.0")
